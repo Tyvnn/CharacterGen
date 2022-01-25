@@ -17,10 +17,10 @@ namespace CharacterGen
             Character Tyvnn = new Character();
             Console.WriteLine(Tyvnn.Strength);
 
-            //Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new CharactergenForm());
         }
     }
 }
